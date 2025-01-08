@@ -11,7 +11,7 @@ spec:
     path: charts/actions-runner-controller
   destination:
     server: https://kubernetes.default.svc
-    namespace: github-runners
+    namespace: actions-runner-system
   syncPolicy:
     automated:
       prune: true
