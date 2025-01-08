@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/actions-runner-controller/actions-runner-controller.git
-    targetRevision: 0.27.6
-    chart: actions-runner-controller
+    repoURL: https://github.com/actions/actions-runner-controller.git
+    targetRevision: gh-pages
+    path: charts/actions-runner-controller
   destination:
     server: https://kubernetes.default.svc
     namespace: github-runners
