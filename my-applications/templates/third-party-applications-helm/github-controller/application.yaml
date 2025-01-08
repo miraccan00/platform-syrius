@@ -9,6 +9,9 @@ spec:
     repoURL: https://github.com/actions/actions-runner-controller.git
     targetRevision: gh-pages
     path: charts/actions-runner-controller
+  helm:
+    valueFiles:
+      - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: actions-runner-system
